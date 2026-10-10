@@ -22,6 +22,7 @@
 | 认证 | `Authorization: Bearer <accessToken>` |
 | 请求追踪 | 服务端响应必须返回 `requestId` |
 | 幂等 | 执行类请求使用 `clientRequestId` |
+| 分页 | `page` 从 1 开始，`pageSize` 为 1–100 |
 
 ## 3. 认证和游客会话
 
