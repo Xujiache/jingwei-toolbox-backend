@@ -1,0 +1,14 @@
+spring:
+  flyway:
+    enabled: false
+  datasource:
+    hikari:
+      initialization-fail-timeout: -1
+  data:
+    redis:
+      repositories:
+        enabled: false
+
+app:
+  security:
+    jwt-secret: 01234567890123456789012345678901
